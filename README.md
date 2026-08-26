@@ -1,145 +1,146 @@
 # Olá, eu sou o David Silva 👋
 
-## 💻 Desenvolvedor Software | Java & Spring Boot | Next.js & TypeScript
+## 💻 Engenheiro de Software Fullstack | Java & Spring Boot | Next.js & TypeScript
 
-Sou desenvolvedor focado em construir **aplicações robustas, escaláveis e com excelente experiência do usuário**, aplicando boas práticas de engenharia de software e arquiteturas utilizadas pelo mercado.
+Desenvolvedor focado na arquitetura, segurança e deploy de **produtos SaaS escaláveis e em produção**. Combino a solidez e governança do ecossistema Java/Spring Boot no backend com a performance e refinamento visual do Next.js e TypeScript no frontend.
 
-Possuo sólida base no **Backend com Java e Spring Boot** (APIs REST, testes, segurança e bancos relacionais) e venho expandindo constantemente minha stack para o **Frontend moderno com Next.js, TypeScript e Tailwind CSS**. 
-
-Além de codar, crio conteúdo e faço transmissões ao vivo no canal **Clovin DEV**, compartilhando minha jornada de aprendizado, rotina de estudos e desenvolvimento na prática.
+Além de construir produtos comerciais, produzo conteúdo e compartilho rotina de engenharia ao vivo no canal **Clovin DEV**.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 SaaS & Produtos em Produção
+
+### 🏗️ ObraSync — Gestão Visual de Obras & Portal do Cliente
+> **Problema & Solução:** Arquitetos e construtores perdiam horas enviando relatórios e fotos dispersas por WhatsApp. O ObraSync centraliza o diário de obra com linha do tempo fotográfica, cálculo de cronograma físico e portal do cliente em tempo real via Magic Link.
 
 <div align="center">
 
-### 🚀 Backend
+<img src="https://img.shields.io/badge/Next.js_16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL_Neon-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge"/>
+
+</div>
+
+**Destaques de Engenharia & Segurança:**
+- **Multi-Tenant Real:** Isolamento estrito de dados automatizado com *Prisma Client Extension* + *AsyncLocalStorage*.
+- **Segurança Binária (AppSec):** Validação de *Magic Bytes* no upload (`FF D8 FF`, `89 50 4E 47`, `25 50 44 46`) para prevenir spoofing de MIME types.
+- **Governança de Sessão:** Invalidação instantânea de tokens JWT (`tokenVersion`) e painel Super Admin com auditoria de acessos (`AccessLog`) e gestão de trial de 30 dias.
+- **Portal do Cliente:** Acesso sem atrito de login via Magic Link (UUID v4) otimizado para celulares.
+- 🟢 **Status:** **Em produção com primeiros clientes ativos (trial).**
+
+🌐 [**Acessar Produto no Ar (Live)**](https://obrasync-bf1t.onrender.com) | 🔗 [Repositório GitHub](https://github.com/Davidds5/obrasync)
+
+---
+
+### 💅 BelasUnhas / Manicure API — SaaS de Agendamentos & Gestão de Salões
+> **Problema & Solução:** Salões e esmalterias perdem faturamento e geram atritos por gerenciarem horários em cadernos e conversas soltas. A plataforma fornece infraestrutura completa para auto-onboarding, auto-agendamento de clientes e controle financeiro.
+
+<div align="center">
+
 <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge"/>
+
+</div>
+
+**Destaques de Engenharia & Segurança:**
+- **Arquitetura em Camadas & DTOs:** Estrutura desacoplada utilizando MapStruct, JPA Specifications para filtros dinâmicos e paginação.
+- **Segurança & RBAC:** Autenticação stateless com Spring Security e JWT com controle de perfis (`CLIENTE` / `ADMIN`).
+- **Práticas de DevOps:** Containerização com Docker **Multi-stage Build**, migrations versionadas com Flyway e deploy automatizado na nuvem (Render).
+- **Qualidade & Testes:** Suíte de testes unitários e de integração com JUnit 5 e Mockito.
+
+🌐 [**Documentação Interativa da API (Swagger)**](https://manicure-api-vi63.onrender.com/swagger-ui/index.html) | 🔗 [Repositório GitHub](https://github.com/Davidds5/manicure_api)
+
+---
+
+## 🛠️ Tech Stack & Ferramentas
+
+<div align="center">
+
+### 🚀 Backend & Linguagens
+<img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
 <img src="https://img.shields.io/badge/Spring_Data_JPA-59666C?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"/>
 <img src="https://img.shields.io/badge/MapStruct-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
 
 <br>
 
-### 🎨 Frontend
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+### 🎨 Frontend & UI
+<img src="https://img.shields.io/badge/Next.js_15%2F16-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 
 <br>
 
-### 🏗️ Arquitetura & Boas Práticas
+### 🏗️ Arquitetura, Segurança & Boas Práticas
+<img src="https://img.shields.io/badge/Multi--Tenant_Architecture-4A154B?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AppSec_Hardening-black?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/SOLID-FF6F00?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Clean_Code-000000?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/DTO_Pattern-4CAF50?style=for-the-badge"/>
 
 <br>
 
-### 🗄️ Banco de Dados
+### 🗄️ Bancos de Dados & ORMs
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/H2-0A0A0A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prisma_ORM-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Hibernate_JPA-59666C?style=for-the-badge&logo=hibernate&logoColor=white"/>
 <img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white"/>
 
 <br>
 
-### 🧪 Testes
+### 🧪 Testes & Qualidade
 <img src="https://img.shields.io/badge/JUnit_5-25A162?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Mockito-FFCA28?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/MockMvc-6DB33F?style=for-the-badge"/>
 
 <br>
 
-### ⚙️ Ferramentas & DevOps
+### ⚙️ DevOps & Ferramentas
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"/>
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
 
 </div>
 
 ---
 
-## 🚀 Projetos em Destaque
-
-### 💅 Manicure API (Backend Java)
-🔗 [Repositório GitHub](https://github.com/Davidds5/manicure_api) | 🌐 [**API ao vivo no Render (Swagger)**](https://manicure-api-vi63.onrender.com/swagger-ui/index.html)
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge"/>
-
-</div>
-
-**Problema Resolvido:**
-Salões de beleza gerenciam agendamentos de forma manual (cadernos, WhatsApp), gerando conflitos de horários, perda de receita e falta de controle de acesso. Esta API fornece o backend completo para digitalizar e profissionalizar essa gestão.
-
-**Destaques Técnicos:**
-- **Segurança:** Autenticação e autorização Stateless com Spring Security e JWT (controle de perfis `CLIENTE` / `ADMIN`).
-- **DevOps & Deploy:** Imagem Docker com **Multi-stage Build** e deploy automatizado na nuvem (**Render**) com banco PostgreSQL gerenciado.
-- **Arquitetura:** Camadas bem definidas com DTOs e MapStruct, filtros dinâmicos com JPA Specifications e paginação.
-- **Qualidade:** Cobertura de testes unitários com JUnit 5 e Mockito.
-- **Banco de Dados:** Controle e versionamento seguro de schema com Flyway migrations.
-
----
-
-### 📝 Task Manager / Lista de Tarefas (Frontend Next.js)
-🔗 [Repositório GitHub](https://github.com/Davidds5/lista-de-tarefas)
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-
-</div>
-
-**Problema Resolvido:**
-Aplicação moderna e responsiva de gerenciamento de tarefas focada em produtividade pessoal, oferecendo uma interface limpa, rápida e intuitiva.
-
-**Destaques Técnicos:**
-- **Arquitetura App Router:** Uso de Server Components para performance e Client Components para interatividade local.
-- **Tipagem Forte:** TypeScript para garantir consistência de dados, props e prevenção de bugs.
-- **Estilização Moderna:** Design System com Tailwind CSS, incluindo dark mode e layout responsivo.
-
----
-
 ## 🎥 Canal & Comunidade (Clovin DEV)
 
-Produzo conteúdo e faço lives sobre desenvolvimento de software, aprendizado na prática e disciplina diária.
+Produzo conteúdo técnico e realizo lives demonstrando desenvolvimento de software na prática, boas práticas de engenharia e disciplina de estudos.
 
 <div align="center">
 
-[![YouTube](https://img.shields.io/badge/YouTube-Clovin_DEV-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com)
-[![TikTok](https://img.shields.io/badge/TikTok-Clovin_DEV-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-David_Silva-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/davidsilva)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-David_Silva-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-silva-17b2882bb)
+[![Portfólio](https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://davidds5.github.io/portfolio_clovin/)
+[![YouTube](https://img.shields.io/badge/YouTube-Clovin_DEV-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@SEU_CANAL_AQUI)
+[![TikTok](https://img.shields.io/badge/TikTok-Clovin_DEV-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@SEU_PERFIL_AQUI)
 
 </div>
 
 ---
 
-## 📊 Estatísticas do GitHub
+## 📫 Contato & Oportunidades
+Aberto a novas oportunidades profissionais como Desenvolvedor Fullstack / Backend, consultorias e parcerias em projetos SaaS.
 
-<div align="center">
-
-[![Gráfico de Atividades do GitHub](https://github-readme-activity-graph.vercel.app/graph?username=Davidds5&theme=react-dark)](https://github.com/Davidds5)
-
-</div>
-
+- 💼 **LinkedIn:** [linkedin.com/in/david-silva-17b2882bb](https://www.linkedin.com/in/david-silva-17b2882bb)
+- 🌐 **Portfólio Web:** [davidds5.github.io/portfolio_clovin](https://davidds5.github.io/portfolio_clovin/)
+- 📄 **Currículo Web:** [Acessar Currículo](https://davidds5.github.io/portfolio_clovin/curriculo_david_pt.html)
